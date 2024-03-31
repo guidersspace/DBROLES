@@ -1,0 +1,24 @@
+{
+  "role": {
+    "name": "DB_SECURITY_ADMIN",
+    "object_privileges": [
+      {
+        "name": "sys.password_exclude_list",
+        "type": "VIEW",
+        "privileges": [
+          "SELECT",
+          "INSERT",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ],
+    "system_privileges": [
+      "CATALOG READ",
+      "TRACE ADMIN",
+      "INIFILE ADMIN",
+      "AUDIT ADMIN",
+      "AUDIT OPERATOR"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "SYS.USERS": {
+    "target": {
+      "object": "USERS",
+      "schema": "SYS"
+    }
+  },
+  "SYS.ROLES": {
+    "target": {
+      "object": "ROLES",
+      "schema": "SYS"
+    }
+  },
+  "sys.m_services": {
+    "target": {
+      "object": "M_SERVICES",
+      "schema": "SYS"
+    }
+  },
+  "sys.m_service_memory": {
+    "target": {
+      "object": "M_SERVICE_MEMORY",
+      "schema": "SYS"
+    }
+  },
+  "sys.m_service_statistics": {
+    "target": {
+      "object": "M_SERVICE_STATISTICS",
+      "schema": "SYS"
+    }
+  },
+  "sys.m_heap_memory_reset": {
+    "target": {
+      "object": "M_HEAP_MEMORY_RESET",
+      "schema": "SYS"
+    }
+  },
+  "sys.password_exclude_list": {
+    "target": {
+      "object": "PASSWORD_EXCLUDE_LIST",
+      "schema": "SYS"
+    }
+  },
+  "sys.get_insufficient_privilege_error_details": {
+    "target": {
+      "object": "GET_INSUFFICIENT_PRIVILEGE_ERROR_DETAILS",
+      "schema": "SYS"
+    }
+  }
+}

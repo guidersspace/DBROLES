@@ -1,0 +1,31 @@
+{
+  "role": {
+    "name": "DB_SYSTEM_ADMIN",
+    "system_privileges": [
+      "CATALOG READ",
+      "BACKUP ADMIN",
+      "CREATE REMOTE SOURCE",
+      "INIFILE ADMIN",
+      "LOG ADMIN",
+      "OPTIMIZER ADMIN",
+      "RESOURCE ADMIN",
+      "SAVEPOINT ADMIN",
+      "SERVICE ADMIN",
+      "SESSION ADMIN",
+      "TABLE ADMIN",
+      "TRACE ADMIN",
+      "WORKLOAD ADMIN",
+      "WORKLOAD ANALYZE ADMIN",
+      "WORKLOAD CAPTURE ADMIN",
+      "WORKLOAD REPLAY ADMIN"
+    ],
+    "schema_roles": [
+      {
+        "schema_reference": "SECROLES_1",
+        "names": [
+          "SELECT__SYS_STATISTICS"
+        ]
+      }
+    ]
+  }
+}
