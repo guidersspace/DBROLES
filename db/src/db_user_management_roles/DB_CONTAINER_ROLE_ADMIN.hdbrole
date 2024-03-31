@@ -8,6 +8,13 @@
         "privileges": [
           "EXECUTE"
         ]
+      },
+      {
+        "name": "REVOKE_ROLE_FROM_USER",
+        "type": "PROCEDURE",
+        "privileges": [
+          "EXECUTE"
+        ]
       }
     ]
   }
